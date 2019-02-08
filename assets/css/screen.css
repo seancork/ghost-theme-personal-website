@@ -1,0 +1,285 @@
+/* Simple-Tech - Sean O' Neill - seanoneill.me */
+
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+   margin-bottom: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.header,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+  line-height: 60px;  
+}
+
+.terminal_window {
+  margin: 0 auto;
+  height: auto;
+  text-align: left;
+  margin-top: 15px;
+  postion: relative;
+  border-radius: 10px;
+  width: 100%;
+  overflow: auto;
+}
+
+.terminal_window header {
+  background-color: #AAAAAA ;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}
+
+.terminal_window .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.red_btn {
+  background-color: #E75448;
+}
+
+.yellow_btn {
+  background-color: #E5C30F;
+}
+
+.green_btn {
+  background-color: #3BB662;
+}
+
+.terminal_window {
+   background-color: #667292;
+  font-size: 11pt;
+}
+
+.terminal_text {
+  margin-left: 20px;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+}
+
+#typed-strings {
+  display: inline-block;
+  postiion: relative;
+}
+
+#typed {
+  font-family: "Consolas", "Courier New", "Courier";
+  margin-left: 15px;
+}
+
+#input_entered{ 
+  font-size:16px; 
+  color:white; 
+  font-weight:bold; 
+  font-style:italic;
+}
+
+#output_entered{ 
+  font-size:16px; 
+  color:#daebe8;
+  font-weight:bold; 
+  font-style:italic;
+}
+
+.link {
+ color: #d9ad7c;
+}
+
+div #blink {
+  margin-left: 15px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.post-full-content .kg-width-full .kg-image {
+        width: 100vw;
+    }
+
+img, iframe {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 48em) {
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header {
+    margin-bottom: 2rem;
+  }
+}
+
+.card{
+  margin-bottom: 20px;
+}
+
+#main_title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+
+.kg-gallery-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1040px;
+    width: 100vw;
+}
+
+.kg-gallery-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kg-gallery-image img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.kg-gallery-row:not(:first-of-type) {
+    margin: 0.75em 0 0 0;
+}
+
+.kg-gallery-image:not(:first-of-type) {
+    margin: 0 0 0 0.75em;
+}
+
+.kg-gallery-card + .kg-image-card.kg-width-wide,
+.kg-gallery-card + .kg-gallery-card,
+.kg-image-card.kg-width-wide + .kg-gallery-card,
+.kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide {
+    margin: -2.25em 0 3em;
+}
+
+.post-full-content .kg-width-full .kg-image {
+    max-width: 100vw;
+}
+
+.post-full-content .kg-width-full .kg-image {
+        width: 100vw;
+}
+
+.text-muted a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+ h1.post-title {
+    margin-top:0.35em;
+    margin-bottom: 0.6em;
+}
+h3.post-title {
+    margin-top:0.4em;
+    padding-bottom:1.2em;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2em;
+    color: #444;
+}
+.post-title .feature-star {
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 48em) {
+.header,
+.footer {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header {
+    margin-bottom: 2rem;
+  }
+
+.separator, .taglist, .feature-star {
+    color: #ccc;
+}
+.taglist a {
+    background-color:#ccc;
+    color:#fff;
+    display: inline-block;   
+    line-height: 1.5em;
+    padding:0.3em 0.6em 0.3em 0.6em;
+    vertical-align:20%;  
+    font-size:0.5em;
+    -webkit-border-radius: 0.25em;
+    font-weight: 700 !important;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    font-family: "Open Sans", sans-serif;
+    border-radius:0.25em;
+    -moz-border-radius: 0.25em;  
+}
+
+.kg-image{
+  max-width:100%
+}
+
+.kg-card{
+  margin:0 0 2rem 0
+}
+
+.kg-embed-card{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-width:100%
+}
+
+.kg-image{
+  max-width:100%
+  }
+
+.kg-card figcaption{
+  font-size:0.8rem;
+  line-height:1.4em;
+  text-align:center
+}
+
+.kg-width-wide{
+  position:relative;
+  margin-left:-6rem;
+  margin-right:-6rem;width:calc(100% + 12rem)
+}

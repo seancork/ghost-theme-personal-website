@@ -1,0 +1,26 @@
+{
+    "name": "simple-tech",
+    "description": "Minimalist homepage & blog theme.",
+    "version": "1.0.0",
+
+    "author": {
+        "name": "Sean O' Neill",
+        "email": "contact@seanoneill.me",
+        "url": "https://seanoneill.me"
+    },
+
+    "keywords": [
+        "ghost-theme",
+        "theme",
+        "simple"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/seancork"
+    },
+
+    "config": {
+        "posts_per_page": 7
+    }
+
+}

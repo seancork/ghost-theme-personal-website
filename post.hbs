@@ -1,0 +1,35 @@
+{{!< default}}
+
+{{#post}}
+
+{{> "site-nav"}}
+
+    <article class="{{post_class}}">
+
+        <header class="post-header">
+          <p class="post-date">{{date published_at format="MMMM DD, YYYY"}} {{#if tags}}&nbsp;
+            <p class="post-title">{{title}}</p>
+                {{#foreach tags}}
+                    <a href="{{url}}" title="{{name}}" class="tag">{{name}}</a>&nbsp;&nbsp;
+                {{/foreach}}
+            {{/if}}</p>
+        </header>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        </main>
+</div>
+</div>
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Built by seanoneill.me</span>
+      </div>
+    </footer>
+
+    </article>
+
+</main>
+
+{{/post}}
