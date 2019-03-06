@@ -7,12 +7,11 @@
     <article class="{{post_class}}">
 
         <header class="post-header">
+          <h1 class="post-title">{{title}}</h1>
           <p class="post-date">{{date published_at format="MMMM DD, YYYY"}} | 🏷️ {{#if tags}}
            {{#foreach tags}}
                     <a href="{{url}}" title="{{name}}" class="tag">{{name}}</a>&nbsp;&nbsp;
-                {{/foreach}}
-            <p class="post-title">{{title}}</p>
-               
+                {{/foreach}}       
             {{/if}}</p>
         </header>
 
